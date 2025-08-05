@@ -1,13 +1,12 @@
+# Componente que tendrá la documentación (TechDocs)
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: primer-api
-  description: Una API de ejemplo en YAML
+  name: primer-api-service
+  description: Servicio que expone la Primer API
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  lifecycle: production
   owner: equipo-1
-  definition:
-    $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/catalog/catalog-info.yaml
-techdocs:
-  url: ./docs
+  lifecycle: production
