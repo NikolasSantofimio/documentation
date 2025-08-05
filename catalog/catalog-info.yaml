@@ -8,6 +8,6 @@ spec:
   lifecycle: production
   owner: equipo-1
   definition:
-    $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/primerapi.yaml
+    $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/catalog/catalog-info.yaml
   techdocs:
     url: ./docs
