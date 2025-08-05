@@ -5,7 +5,7 @@ metadata:
   name: primer-api-service
   description: Servicio que expone la Primer API
   annotations:
-    backstage.io/techdocs-ref: github.com/NikolasSantofimio/documentation/catalog
+    backstage.io/techdocs-ref: github.com/NikolasSantofimio/documentation
 spec:
   type: service
   owner: equipo-1
