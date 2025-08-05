@@ -4,8 +4,10 @@ metadata:
   name: primer-api
   description: Una API de ejemplo en YAML
 spec:
-  type: openapi
-  lifecycle: experimental
+  type: service
+  lifecycle: production
   owner: equipo-1
   definition:
     $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/primerapi.yaml
+  techdocs:
+    url: ./docs
