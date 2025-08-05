@@ -1,25 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-sample-api
-  description: Sample API example
-  tags:
-    - rest
+  name: primer-api
+  description: Una API de ejemplo en YAML
 spec:
   type: openapi
-  lifecycle: production
-  owner: team-a
+  lifecycle: experimental
+  owner: equipo-1
   definition:
-    $text: |
-      openapi: 3.0.0
-      info:
-        title: Sample API
-        version: 1.0.0
-      paths:
-        /hello:
-          get:
-            responses:
-              '200':
-                description: OK
-
-
+    $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/primerapi.yaml
