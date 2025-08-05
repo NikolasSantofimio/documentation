@@ -2,3 +2,5 @@ site_name: Primer API
 nav:
   - Inicio: index.md
 docs_dir: docs
+plugins:
+  - techdocs-core
