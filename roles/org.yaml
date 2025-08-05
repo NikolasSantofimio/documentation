@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: equipo-movil
+  description: Equipo encargado de las aplicaciones móviles
+spec:
+  type: team
+  profile:
+    displayName: Equipo Móvil
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: equipo-backend
+  description: Equipo encargado de los servicios backend
+spec:
+  type: team
+  profile:
+    displayName: Equipo Backend
+  children: []
