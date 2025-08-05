@@ -7,5 +7,7 @@ spec:
   type: service
   lifecycle: production
   owner: equipo-1
+  definition:
+    $text: https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/catalog/catalog-info.yaml
   techdocs:
     url: ./docs
