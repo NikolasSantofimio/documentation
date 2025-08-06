@@ -6,7 +6,7 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Equipo 1
+    displayName: Equipo Movil
   members: []
 
 ---
@@ -19,5 +19,5 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Equipo 2
+    displayName: Equipo Backend
   members: []
