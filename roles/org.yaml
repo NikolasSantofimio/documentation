@@ -1,23 +1,25 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: equipo-1
-  description: Equipo encargado de desarrollo
+  name: equipo-movil
+  description: Equipo encargado de desarrollo de app moviles en Flutter
 spec:
   type: team
   profile:
     displayName: Equipo 1
-  members: []
+  members: [Carlos.Orjuela,oscar.espinosa,Juan.Insuasty,Sebastian.Arboleda]
+  manager: Carlos.Orjuela
 
 ---
 
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: equipo-2
-  description: Equipo encargado de QA
+  name: equipo-Backend
+  description: Equipo encargado de los desarrollos del backend y del portal de AWS
 spec:
   type: team
   profile:
     displayName: Equipo 2
-  members: []
+  members: [Holmand.Villalba,Briggitte.Angrino,Jose.Hernandez, Sandra.Hernandez,Vladimir.Rodriguez]
+  manager: Holmand.Villalba
