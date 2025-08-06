@@ -7,7 +7,7 @@ spec:
   type: team
   profile:
     displayName: Equipo 1
-  members: [Carlos.Orjuela,oscar.espinosa,Juan.Insuasty,Sebastian.Arboleda]
+  members: []
 
 ---
 
@@ -20,4 +20,4 @@ spec:
   type: team
   profile:
     displayName: Equipo 2
-  members: [Holmand.Villalba,Briggitte.Angrino,Jose.Hernandez, Sandra.Hernandez,Vladimir.Rodriguez]
+  members: []
