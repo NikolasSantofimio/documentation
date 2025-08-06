@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: primer-api-service
-  description: Servicio que expone la Primer API
+  description: Servicio que expone la Primer API 2
   annotations:
     backstage.io/techdocs-ref: "url:https://github.com/NikolasSantofimio/documentation/tree/main"
 
