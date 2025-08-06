@@ -9,5 +9,5 @@ metadata:
 
 spec:
   type: service
-  owner: equipo-1
+  owner: equipo-2
   lifecycle: production
