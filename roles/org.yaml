@@ -1,25 +1,23 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: equipo-1
-  description: Equipo de desarrollo de Billetera Compensar
+  description: Equipo encargado de desarrollo
 spec:
   type: team
   profile:
-    displayName: Equipo 1 - Compensar
-    email: equipo1@tudominio.com
-  children: []
+    displayName: Equipo 1
+  members: []
 
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: equipo-2
-  description: Equipo de desarrollo de Billetera Cafam
+  description: Equipo encargado de QA
 spec:
   type: team
   profile:
-    displayName: Equipo 2 - Cafam
-    email: equipo2@tudominio.com
-  children: []
+    displayName: Equipo 2
+  members: []
