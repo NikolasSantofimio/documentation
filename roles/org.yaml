@@ -8,7 +8,6 @@ spec:
   profile:
     displayName: Equipo 1
   members: [Carlos.Orjuela,oscar.espinosa,Juan.Insuasty,Sebastian.Arboleda]
-  manager: Carlos.Orjuela
 
 ---
 
@@ -22,4 +21,3 @@ spec:
   profile:
     displayName: Equipo 2
   members: [Holmand.Villalba,Briggitte.Angrino,Jose.Hernandez, Sandra.Hernandez,Vladimir.Rodriguez]
-  manager: Holmand.Villalba
