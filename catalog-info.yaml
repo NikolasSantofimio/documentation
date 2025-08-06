@@ -9,5 +9,5 @@ metadata:
 
 spec:
   type: service
-  owner: guest
+  owner: equipo-1
   lifecycle: production
