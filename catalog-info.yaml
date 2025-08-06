@@ -9,5 +9,5 @@ metadata:
 
 spec:
   type: service
-  owner: equipo-movil
+  owner: guest
   lifecycle: production
