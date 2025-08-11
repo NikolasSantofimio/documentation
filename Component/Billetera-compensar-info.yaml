@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: billetera-compensar
-  description: Aplicación móvil de billetera para Compensar
+  description: Aplicación móvil de migración billetera para Compensar
   tags:
     - flutter
     - mobile
