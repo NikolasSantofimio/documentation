@@ -1,13 +1,11 @@
 # Componente que tendrá la documentación (TechDocs)
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: primer-api-service
-  description: Primer API 4
+  name: Componentes-moviles
   annotations:
     backstage.io/techdocs-ref: "url:https://github.com/NikolasSantofimio/documentation/tree/main"
 
 spec:
-  type: service
-  owner: equipo-movil
-  lifecycle: production
+   targets:
+    - ./Component/billetera-compensar.yaml

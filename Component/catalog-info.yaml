@@ -5,5 +5,5 @@ metadata:
   description: Componentes de apps móviles
 spec:
   targets:
-    - ./Component/billetera-compensar.yaml
+    - https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/Component/billetera-compensar.yaml
     - ./Component/billetera-cafam.yaml
