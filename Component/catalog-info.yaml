@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: componentes-moviles
-  description: Componentes de apps móviles
-spec:
-  targets:
-    - https://raw.githubusercontent.com/NikolasSantofimio/documentation/main/Component/billetera-compensar.yaml
-    - ./Component/billetera-cafam.yaml
