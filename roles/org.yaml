@@ -1,25 +1,23 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: equipo-1
-  description: Equipo de desarrollo de Billetera Compensar
+  name: equipo-movil
+  description: Equipo encargado de desarrollo de app moviles en Flutter
 spec:
   type: team
   profile:
-    displayName: Equipo 1 - Compensar
-    email: equipo1@tudominio.com
-  children: []
+    displayName: Equipo Movil
+  members: []
 
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: equipo-2
-  description: Equipo de desarrollo de Billetera Cafam
+  name: equipo-Backend
+  description: Equipo encargado de los desarrollos del backend y del portal de AWS
 spec:
   type: team
   profile:
-    displayName: Equipo 2 - Cafam
-    email: equipo2@tudominio.com
-  children: []
+    displayName: Equipo Backend
+  members: []

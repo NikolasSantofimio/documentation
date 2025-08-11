@@ -3,11 +3,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: primer-api-service
-  description: Servicio que expone la Primer API
+  description: Primer API 4
   annotations:
     backstage.io/techdocs-ref: "url:https://github.com/NikolasSantofimio/documentation/tree/main"
 
 spec:
   type: service
-  owner: equipo-1
+  owner: equipo-movil
   lifecycle: production
