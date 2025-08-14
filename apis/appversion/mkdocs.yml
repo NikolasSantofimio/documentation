@@ -1,0 +1,9 @@
+site_name: AppVersion - Compensar
+nav:
+  - Inicio: index.md
+  - Contrato: contrato.md
+  - Mapeo DynamoDB: mapeo-dynamo.md
+  - Ambientes: ambientes.md
+plugins:
+  - techdocs-core
+# Usamos el valor por defecto docs_dir: docs (por eso los .md van en ./docs/)

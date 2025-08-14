@@ -7,6 +7,8 @@ metadata:
     - version
     - mobile
     - shared
+  annotations:
+    backstage.io/techdocs-ref: dir:../../docs/apis/appversion
 spec:
   type: openapi
   lifecycle: production

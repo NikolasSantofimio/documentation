@@ -10,5 +10,5 @@ spec:
    targets:
     - ./components/billetera-compensar-info.yaml
     - ./components/billetera-cafam-info.yaml
-    - ./apis/appversion.yaml
+    - ./apis/appversion/appversion.yaml
     
