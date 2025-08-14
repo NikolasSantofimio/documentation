@@ -11,3 +11,5 @@ spec:
   type: service
   lifecycle: production
   owner: equipo-movil
+  providesApis:
+    - appversion
