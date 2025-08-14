@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: appversion
+  description: Servicio para verificar si la versión de la app móvil está actualizada
+  tags:
+    - version
+    - mobile
+    - shared
+spec:
+  type: openapi
+  lifecycle: production
+  owner: equipo-backend
+  system: billeteras
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: App Version API
+      version: 1.0.0
+    servers:
+      - url: https://api-compensar.com/appversion
+        description: Producción Compensar
+    paths:
+      /check:
+        post:
+          summary: Valida versión de la app
+          requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    versionMayor:
+                      type: integer
+                    versionMenor:
+                      type: integer
+                    release:
+                      type: integer
+                    cliente:
+                      type: string
+                    tienda:
+                      type: string
+          responses:
+            '200':
+              description: Respuesta de validación
