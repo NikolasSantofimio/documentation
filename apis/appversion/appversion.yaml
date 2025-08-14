@@ -8,7 +8,7 @@ metadata:
     - mobile
     - shared
   annotations:
-    backstage.io/techdocs-ref: dir:../../docs/apis/appversion
+    backstage.io/techdocs-ref: url:https://github.com/tu-org/tu-repo/tree/main/docs/apis/appversion
 spec:
   type: openapi
   lifecycle: production
