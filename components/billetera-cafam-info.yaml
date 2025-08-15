@@ -14,5 +14,6 @@ spec:
   system: billeteras
   consumesApis:
     - appversion
+    - sincronizacion
   dependsOn:
     - component:wallet-common
