@@ -1,0 +1,48 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sincronización
+  description: Servicio para sincronizar la información del app
+  tags:
+    - version
+    - mobile
+    - shared
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/NikolasSantofimio/documentation/tree/main/apis/appversion
+spec:
+  type: openapi
+  lifecycle: production
+  owner: equipo-backend
+  system: billeteras
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: App Version API
+      version: 1.0.0
+    servers:
+      - url: https://api-compensar.com/appversion
+        description: app de pruebas
+    paths:
+      /check:
+        post:
+          summary: Valida versión de la app
+          requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    versionMayor:
+                      type: integer
+                    versionMenor:
+                      type: integer
+                    release:
+                      type: integer
+                    cliente:
+                      type: string
+                    tienda:
+                      type: string
+          responses:
+            '200':
+              description: Respuesta de validación

@@ -12,5 +12,7 @@ spec:
   lifecycle: production
   owner: equipo-movil
   system: billeteras
-  providesApis:
+  consumesApis:
     - appversion
+  dependsOn:
+    - component:wallet-common
