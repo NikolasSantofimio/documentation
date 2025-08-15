@@ -5,7 +5,6 @@ metadata:
   description: Agrupador de todas las aplicaciones de billeteras móviles
 spec:
   owner: equipo-wallet
-  type: system
   children:
     - billetera-compensar
     - billetera-cafam
