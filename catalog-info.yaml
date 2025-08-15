@@ -13,4 +13,4 @@ spec:
     - ./components/billetera-cafam-info.yaml
     - ./components/wallet-common.yaml
     - ./apis/appversion/appversion.yaml
-      - ./apis/sincronizacion/sincronizacion.yaml
+    - ./apis/sincronizacion/sincronizacion.yaml
