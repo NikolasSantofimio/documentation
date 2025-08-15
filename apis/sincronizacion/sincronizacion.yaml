@@ -13,7 +13,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: equipo-backend
-  system: billeteras
   definition: |
     openapi: 3.0.0
     info:
