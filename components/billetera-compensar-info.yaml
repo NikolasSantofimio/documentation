@@ -11,6 +11,6 @@ spec:
   type: service
   lifecycle: production
   owner: equipo-movil
-  parent: billeteras
+  system: billeteras
   providesApis:
     - appversion
