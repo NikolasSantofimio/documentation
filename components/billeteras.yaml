@@ -6,7 +6,6 @@ metadata:
 spec:
   owner: equipo-wallet
   type: system
-  lifecycle: production
   children:
     - billetera-compensar
     - billetera-cafam
