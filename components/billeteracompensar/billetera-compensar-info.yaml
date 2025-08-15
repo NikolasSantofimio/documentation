@@ -7,6 +7,8 @@ metadata:
     - flutter
     - mobile
     - billetera
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/NikolasSantofimio/documentation/tree/main/components\billeteracompensar
 spec:
   type: service
   lifecycle: production
@@ -17,4 +19,3 @@ spec:
     - sincronizacion
   dependsOn:
     - component:wallet-common
-    
