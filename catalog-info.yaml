@@ -8,6 +8,7 @@ metadata:
 
 spec:
    targets:
+    - ./components/billeteras.yaml
     - ./components/billetera-compensar-info.yaml
     - ./components/billetera-cafam-info.yaml
     - ./apis/appversion/appversion.yaml
