@@ -11,5 +11,6 @@ spec:
     - ./components/billeteras.yaml
     - ./components/billetera-compensar-info.yaml
     - ./components/billetera-cafam-info.yaml
+    - ./components/wallet-common.yaml
     - ./apis/appversion/appversion.yaml
     
