@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wallet-common
+  description: API Gateway en AWS que expone recursos compartidos para las billeteras móviles
+  tags:
+    - apigateway
+    - aws
+    - csharp
+spec:
+  type: service
+  lifecycle: production
+  owner: equipo-backend
+  system: billeteras
+  providesApis:
+    - appversion
+    - sincronizacion
