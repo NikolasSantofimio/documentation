@@ -1,0 +1,6 @@
+site_name: Billetera Compensar
+nav:
+  - Inicio: index.md
+plugins:
+  - techdocs-core
+docs_dir: .
