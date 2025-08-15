@@ -7,11 +7,10 @@ metadata:
     backstage.io/techdocs-ref: "url:https://github.com/NikolasSantofimio/documentation/tree/main"
 
 spec:
-   targets:
+  targets:
     - ./components/billeteras.yaml
     - ./components/billetera-compensar-info.yaml
     - ./components/billetera-cafam-info.yaml
     - ./components/wallet-common.yaml
     - ./apis/appversion/appversion.yaml
-     - ./apis/appversion/sincronizacion.yaml
-    
+      - ./apis/sincronizacion/sincronizacion.yaml
