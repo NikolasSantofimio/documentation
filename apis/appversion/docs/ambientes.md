@@ -1,15 +1,21 @@
-# Ambientes del servicio AppVersion
+# Ambientes AppVersion API
 
-## Desarrollo
-- **URL**: `https://dev-api.example.com/appversion`
-- **API Key**: `AWS_SSM_PARAM:/wallet/api/dev/appversion/key`
+## Dev
+
+- Rama: `dev`
+- [Ver commits](https://dev.azure.com/EvertecBogota/AppMynehub Jamaica/\_apis/git/repositories/Evertec.Net.AWS.Lambda.AppVersion/commits?searchCriteria.itemVersion.version=dev&api-version=7.1-preview.1&$top=50)
 
 ## QA
-- **URL**: `https://qa-api.example.com/appversion`
-- **API Key**: `AWS_SSM_PARAM:/wallet/api/qa/appversion/key`
 
-## Producción
-- **URL**: `https://api.example.com/appversion`
-- **API Key**: `AWS_SSM_PARAM:/wallet/api/prod/appversion/key`
+- Rama: `qa`
+- [Ver commits](https://dev.azure.com/EvertecBogota/AppMynehub Jamaica/\_apis/git/repositories/Evertec.Net.AWS.Lambda.AppVersion/commits?searchCriteria.itemVersion.version=qa&api-version=7.1-preview.1&$top=50)
 
-> 🔒 Las API Keys se almacenan en AWS SSM Parameter Store y no se exponen en este documento.
+## UAT
+
+- Rama: `uat`
+- [Ver commits](https://dev.azure.com/EvertecBogota/AppMynehub Jamaica/\_apis/git/repositories/Evertec.Net.AWS.Lambda.AppVersion/commits?searchCriteria.itemVersion.version=uat&api-version=7.1-preview.1&$top=50)
+
+## UAT
+
+- Rama: `prod`
+- [Ver commits](https://dev.azure.com/EvertecBogota/AppMynehub Jamaica/\_apis/git/repositories/Evertec.Net.AWS.Lambda.AppVersion/commits?searchCriteria.itemVersion.version=main&api-version=7.1-preview.1&$top=50)
